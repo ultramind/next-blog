@@ -1,0 +1,18 @@
+.container {
+  width: 50px;
+  background-color: var(--textColor);
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+}
+
+.ball {
+  background-color: white;
+  width: 14px;
+  height: 14px;
+  border-radius:50%;
+  position: absolute;
+}
